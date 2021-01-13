@@ -1182,24 +1182,14 @@ Wire Wire Line
 	1700 6900 1600 6900
 Wire Notes Line
 	2050 6200 550  6200
-Text Label 4200 6350 0    50   ~ 0
+Text Label 4100 6350 0    50   ~ 0
 SWDIO
 Text Label 2550 3950 2    50   ~ 0
 RST
-Text Label 4200 6450 0    50   ~ 0
-SWCLK
-Wire Wire Line
-	4200 6350 4050 6350
-Wire Wire Line
-	4200 6450 4050 6450
-Text Label 4250 5950 0    50   ~ 0
+Text Label 4100 5950 0    50   ~ 0
 UART_Tx
-Text Label 4250 6050 0    50   ~ 0
+Text Label 4100 6050 0    50   ~ 0
 UART_Rx
-Wire Wire Line
-	4250 6050 4050 6050
-Wire Wire Line
-	4250 5950 4050 5950
 Text Notes 550  6300 0    50   ~ 0
 PROG
 $Comp
@@ -1268,14 +1258,8 @@ Wire Notes Line
 	8150 550  8150 3750
 Wire Notes Line
 	6750 2400 6750 3750
-Text Label 4250 5750 0    50   ~ 0
+Text Label 4100 5750 0    50   ~ 0
 MOSFET_PWM
-Wire Wire Line
-	4250 5750 4050 5750
-Text Label 4200 5450 0    50   ~ 0
-MOSFET_PWM
-Wire Wire Line
-	4200 5450 4050 5450
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5FFE5CDF
@@ -1360,4 +1344,20 @@ Wire Notes Line
 	6700 4250 6700 3850
 Wire Notes Line
 	6700 3850 4850 3850
+Text Label 4100 5450 0    50   ~ 0
+THERMISTOR_ADC
+Text Label 4100 6450 0    50   ~ 0
+SWCLK
+Wire Wire Line
+	4100 5450 4050 5450
+Wire Wire Line
+	4050 5750 4100 5750
+Wire Wire Line
+	4100 5950 4050 5950
+Wire Wire Line
+	4050 6050 4100 6050
+Wire Wire Line
+	4100 6350 4050 6350
+Wire Wire Line
+	4050 6450 4100 6450
 $EndSCHEMATC
